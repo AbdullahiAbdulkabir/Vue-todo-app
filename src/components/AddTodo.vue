@@ -2,7 +2,7 @@
   <div class="">
     <form @submit="addTodo" class="form-inline ">
 
-      <input  class="form-control" type="text" v-model="title" placeholder="what did you want to do?" name="title">
+      <input  class="form-control" type="text" v-model="title" placeholder="what did you want to do?" name="title" required>
 
       
     </form>

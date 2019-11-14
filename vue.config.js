@@ -1,5 +1,6 @@
 
 module.exports = {
-  publicPath: 'Vue-todo-app/'
-    
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Vue-todo-app/'
+    : '/'
 }

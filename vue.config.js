@@ -1,5 +1,5 @@
 
 module.exports = {
-  publicPath: '/Vue-todo-app/'
+  publicPath: 'Vue-todo-app/'
     
 }
